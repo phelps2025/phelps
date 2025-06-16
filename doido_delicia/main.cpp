@@ -2,9 +2,19 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int main(int argc, char* argv[])
 {
-    string texto = "Hoje o dia está doido demais";
+    if (argc < 2)
+    {
+        cout << "sem argumentos validos" <<endl;
+    }
+    string texto;
+    for (int i = 1; i < argc; i++)
+    {
+        texto += argv[i];
+        if (i < argc -1)
+        texto += " ";
+    }
     string pvelha = "doido";
     string pnova = "delícia";
     
@@ -13,4 +23,4 @@ int main()
     cout<< resultado << endl;
     
     return 0;
-}
+} 
