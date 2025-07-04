@@ -1,0 +1,16 @@
+diff --git a/a.out b/a.out
+index 13277b3..11f6db4 100755
+Binary files a/a.out and b/a.out differ
+diff --git a/soma.cpp b/soma.cpp
+index cf80d21..3917f24 100644
+--- a/soma.cpp
++++ b/soma.cpp
+@@ -14,7 +14,6 @@ int main()
+ 
+     res = a+b;
+ 
++    cout << res << endl;
+     return 0;
+-
+-
+ }
