@@ -14,7 +14,6 @@ int main()
 
     res = a+b;
 
+    cout << "resultado: "<< res << endl;
     return 0;
-
-
 }
